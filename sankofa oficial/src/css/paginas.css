@@ -1,0 +1,833 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins";
+}
+main{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    position: relative;
+    background-color: #011526;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#conteudo-header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header{
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.logo-header img{
+    width: 100%;
+    height: 100%;
+}
+
+#nav-header{
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+.nav{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1s;
+}
+
+.nav:hover{
+    color:#FE8100;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#img-header{
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+#h1-header{
+    position: absolute;
+    z-index: 3;
+    color: #ffffff;
+    letter-spacing: 10px;
+    font-size: 90px;
+    margin-left: 540px;
+    margin-top: 325px;
+}
+#h1-header-musica{
+    position: absolute;
+    z-index: 3;
+    color: #ffffff;
+    letter-spacing: 10px;
+    font-size: 90px;
+    margin-left: 570px;
+    margin-top: 325px;
+}
+
+#h1-color-red{
+    color: #D91E1E;
+}
+
+#h1-color-green{
+    color: #35B756;
+}
+
+#h1-color-orange{
+    color: #FE8100;
+}
+
+
+
+#imagens-header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+#imagens-header img{
+    width: 250px;
+    height: 200px;
+}
+
+/* Pablo */
+
+#caixa_video{
+    background-color: blue;
+    width: 100%;
+     height: auto;
+    margin: auto;
+}
+#imagem_video{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+#imagem_video img{
+    width: 100%;
+    height: 100%;
+}
+#fundo_video1{
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    top: 1180px;
+    left: 280px;
+    border-radius: 20px;
+}
+.ativismo_video{
+    background-color: #CF362C;
+}
+.inovacao_video{
+    background-color: #35B756;
+}
+.musica_video{
+    background-color: #FE8100;
+}
+#conteudo_video > iframe{
+    position: absolute;
+    z-index: 3;
+    top:  25px;
+    left: 25px;
+    width: 93%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+/*Gabriel*/
+.box-container-personagens{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.container-personagens {
+    width: 100%;
+    height: 650px;
+    padding-top: 10px;
+
+    background-color: #F2A71B;
+    background-attachment: fixed;
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#p1{
+    height: 100%;
+    background: linear-gradient(to bottom,  #222222 5% ,#F29422 );
+}
+
+#p2{
+    height: 100%;
+    background: linear-gradient(to bottom,   #F29422 9% ,  #F04F22);
+}
+
+
+
+
+#p3{
+    height: 100%;
+    background: linear-gradient(to bottom,  #F04F22 9% , #011526 );
+}
+
+#p4{
+    background-color:#011526;  
+}
+
+
+.esquerda-personagens{
+    
+    width: 25%;
+    height: 70%;
+    margin-top: 110px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.foto-personagens{
+    
+    width: 80%;
+    height: 325px;
+    
+
+    
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.foto-personagens img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+     
+    box-shadow: rgb(255, 254, 254) 0px 2px 9px;
+
+}
+
+ button:hover{
+    background-color: #222222;
+    transition: 0.5s;
+    box-shadow: 0 10px 20px 0 rgb(255, 254, 254);
+
+}
+
+.icones-personagens{
+    
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.saiba-mais {
+    width: 110px;
+    height: 40px;
+    
+    background-color: rgba(159, 173, 173, 0.24);   
+    border: none;
+    box-shadow: rgba(253, 253, 253, 0.74) 0px 3px 8px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.saiba-mais img{
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    margin-left: 4px;
+}
+
+    
+
+.saiba-mais a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.biografia a{
+    text-decoration: none;
+    color: white;
+}
+
+.biografia{
+    width: 110px;
+    height: 40px;
+
+    
+    background-color: rgba(159, 173, 173, 0.24);
+    color: #fff;
+    border: none;
+    box-shadow: rgba(253, 253, 253, 0.74) 0px 3px 8px;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografia img{
+    width: 20px;
+    height: 20px;
+    margin-top: 11px;
+    margin-left: 4px;
+}
+
+.videos{
+    width: 110px;
+    height: 40px;
+
+    border: none;
+    background-color: rgba(159, 173, 173, 0.24);
+    color: #fff;
+    box-shadow: rgba(253, 253, 253, 0.74) 0px 3px 8px;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos a{
+    text-decoration: none;
+    color: white;
+}
+    
+.videos img{
+    width: 17px;
+    height: 17px;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.direita-personagens{
+    
+    width: 680px;
+    height: 429px;
+    
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(159, 173, 173, 0.24);
+    box-shadow: rgb(255, 254, 254) 2px 4px 20px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-personagens {
+    margin-bottom: 15px;
+}
+
+.resumo-personagens{
+    width: 570px;
+    height: 90%;
+    font-size: 20px;   
+}
+
+/*leo*/
+#orange-bg{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 80px;
+    background-color: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#orange-bg h2{
+    width: 600px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+#posicao-border-top{
+    width: 1186.87px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+#orange-bg .title-border-azul{
+    border: 3px solid #022E53;
+    width: 702.34px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#orange-bg .title-border-preta{
+    border: 2px solid #000;
+    width: 539.3px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+#orange-bg #topicos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 980px;
+    }
+    
+    /*O recipiente do cartão flip - defina a largura e a altura como desejar. */
+    
+.flip-card{
+    width: 250px;
+    height: 300px;
+    margin-bottom: 60px;
+    border-radius: 5px;  
+}
+    
+    /* Este contêiner é necessário para posicionar a frente e o verso */
+.flip-card-interna {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1.3s;
+    transform-style: preserve-3d;
+}
+    
+    /* Faça um giro horizontal ao mover o mouse sobre o contêiner da caixa de virar */
+.flip-card:hover .flip-card-interna {
+    transform: rotateY(180deg);
+}
+    
+    /* Posicione a frente e o verso */
+.flip-card-frente, .flip-card-costas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+    
+.flip-card-frente img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+    /*Estilize a parte de trás */
+.flip-card-costas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #022E53;
+    color: #F26A1B;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+.flip-card-costas h1 {
+    font-size:25px;
+    margin-bottom: 30px;
+    
+}
+.flip-card-costas p {
+    font-size:18px;
+    font-weight: normal;
+    color: #fff;
+    padding: 0px;
+}
+    
+#posicao-border-bottom{
+    width: 1186.87px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+/*Jhow*/
+
+footer {
+    padding-top: 30px;
+    background-color: #011526;
+    color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu-rodape ul {
+    display: flex;
+    gap: 30px
+}
+#menu-rodape ul .link-rodape{
+    color: #fff;
+    font-size: 16px;
+    transition: 1s;
+}
+#menu-rodape ul .link-rodape:hover{
+    color:#FE8100;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.logo-rodape img {
+    max-width: 100px;
+}
+
+.box-redes-copy{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+/* TABLET */
+@media only screen and (min-width: 528px){
+    @media only screen and (max-width: 1024px){
+
+        #conteudo-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .logo-header{
+            margin: 0;
+        }
+
+        #nav-header{
+           margin: 0;
+
+        }
+
+        #img-header{
+            width: 100%;
+            height: 350px;
+            margin-top: 110px;
+            margin-left: 0;
+        }
+
+        #imagens-header{
+            height: auto;
+            flex-wrap: wrap;
+            margin-top: 40px;  
+            padding-bottom: 30px;
+        }
+
+        #imagens-header img{
+            margin-top: 30px;  
+        }
+
+        #h1-header-musica{
+            position: relative;
+            margin-top: 2px;
+            text-align: center;
+            margin-left: 0;
+            font-size: 70px;
+        }
+        #h1-header{
+            position: relative;
+            margin-top: 2px;
+            text-align: center;
+            margin-left: 0;
+            font-size: 70px;
+        }
+
+        #fundo_video{
+            display: none;
+        }
+
+        #fundo_video1{
+            margin-top: 100px;
+            margin-left: -50px;
+        }
+
+        #posicao-border-bottom{
+            width: 990px;
+        }
+
+       /* GABRIEL /*/
+        .container-personagens {
+            width: 100%;
+            height: auto; 
+           flex-direction: column;
+        }
+
+        .esquerda-personagens{
+            margin-top: 30px;
+        }
+
+        .foto-personagens{
+            width: 100%;
+            height: 200px;
+            justify-content: center;
+
+        }
+
+        .icones-personagens{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .saiba-mais a{
+            width: 85px;
+        }
+        .biografia a{
+            width: 65px;
+        }
+
+        .biografia img{
+            margin-top: 5px;
+            margin-left: 0px;
+            margin-right: 5px;
+        }
+
+        .videos a{
+            width: 65px;
+        }
+
+        .videos img{
+            margin-top: 5px;
+            margin-left: 0x;
+            margin-right: 8px;
+        }
+
+        .direita-personagens{
+            width: 300px;
+            height: 750px;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 50px;
+        }
+        .nome-personagens {
+            margin-bottom: 15px;
+        }
+        .resumo-personagens{
+            width: auto;
+            height: auto;
+            font-size: 19px;
+        }
+        
+
+    /**/
+
+
+
+        #topicos{
+            flex-direction: column;
+            align-items: center;
+        }
+        #menu-rodape ul {
+            padding-top: 10px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+    }
+}
+
+
+/* CELULAR */
+    @media only screen and (max-width: 527px){
+        #conteudo-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .logo-header{
+            margin: 0;
+            margin-top: 30px;
+        }
+
+        #nav-header{
+           margin: 0;
+           flex-direction: column;
+           gap: 20px;
+           margin-top: 75px;
+        }
+
+        #img-header{
+            width: 100%;
+            height: 350px;
+            margin-top: 60px;
+            margin-left: 0;
+        }
+
+        #imagens-header{
+            height: auto;
+            flex-wrap: wrap;
+            margin-top: 40px;  
+            padding-bottom: 30px;
+        }
+
+        #imagens-header img{
+            margin-top: 30px;  
+        }
+
+        #h1-header-musica{
+            position: relative;
+            margin-top: 2px;
+            text-align: center;
+            margin-left: 0;
+            font-size: 40px;
+            margin-top: 150px;
+        }
+
+        #h1-header{
+            position: relative;
+            margin-top: 180px;
+            text-align: center;
+            margin-left: 0;
+            font-size: 40px;
+        }
+
+        #fundo_video{
+            display: none;
+        }
+
+        #fundo_video1{
+            margin-top: 100px;
+            margin-left: -50px;
+        }
+
+        #posicao-border-bottom{
+            width: 990px;
+        }
+
+        /* GABRIEL */
+
+         .container-personagens {
+            width: 100%;
+            height: auto; 
+            flex-direction: column;
+        }
+
+        .esquerda-personagens{
+            margin-top: 30px;
+        }
+
+        .foto-personagens{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            right: 40px;
+
+        }
+
+
+        .icones-personagens{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .saiba-mais a{
+            width: 85px;
+
+        }
+        .biografia a{
+            width: 65px;
+        }
+
+        .biografia img{
+            margin-top: 5px;
+            margin-left: 0px;
+            margin-right: 5px;
+        }
+
+        .videos a{
+            width: 65px;
+        }
+
+        .videos img{
+            margin-top: 5px;
+            margin-left: 0x;
+            margin-right: 8px;
+        }
+
+        .direita-personagens{
+            width: 300px;
+            height: 750px;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 50px;
+        }
+        .nome-personagens {
+            margin-bottom: 15px;
+        }
+        .resumo-personagens{
+            width: auto;
+            height: auto;
+            font-size: 19px;
+        }
+        /**/
+
+        #topicos{
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #menu-rodape ul {
+        flex-direction: column;
+        align-items: center;
+        }
+    }
+
+

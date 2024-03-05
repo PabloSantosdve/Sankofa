@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins";
+}
+/* Gabriel */
+header{
+    position: relative;
+    background-color: #011526;
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.logo{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.logo img{
+    width: 254px;
+    height: 500px;
+}
+
+.nav-header{
+margin-right: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+width: 700px;
+
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+}
+
+/* Modificação na scale para aumentar sem afetar o nav e adição do cursor quando passar no a*/
+.nav-header a:hover{
+    color:#FE8100;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#conteudo-header{
+    position: relative;
+    background-color: #011526;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+.texto-header{
+    position: relative;
+    background-color: #011526;
+    
+} 
+
+.texto-header h2{
+    font-size: 32px;
+    margin:20% 0% 0% 5%;
+    color:white;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.texto-header p{
+
+    font-weight: 700;
+    font-size: 20px;
+    margin: auto;
+    margin:5% 0% 0% 5%;
+    color:#F2A71B;
+    line-height: 30px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* pablo*/
+
+/* Modificação na coloração de fundo para uim laranja mais clar, próximo ao amarelo que representa alegria */
+#container_video{
+	width: 100%;
+	height:800px;
+	background-color: #F2A71B;
+}
+
+#imagem_video{
+	position: relative;
+	width: 830px;
+	height: 700px;
+	background-color: #F2A71B;
+	float: right;
+}
+
+#imagem_video img{
+	width: 100%;
+	height: 100%;
+}
+
+#video{
+	position: absolute;
+	z-index: 2;
+	top: 1200px;
+	left: 170px;
+	border-radius: 100px 10px 100px 10px;
+	background-image: linear-gradient(to right,
+	 #011526 60%,
+	 #F2A71B);
+	width: 60%;
+	height: 90%;
+}
+#video > iframe{
+    position: absolute;
+	z-index: 3;
+	top:  60px;
+	left: 50px;
+	width: 85%;
+	height: 80%;
+	border-radius: 40px 5px 40px 5px;	
+}
+
+/*leo*/
+#orange-bg{
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+width: 100%;
+margin: auto;
+height: auto;
+padding-top: 80px;
+background-color: #F2A71B;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#orange-bg h2{
+    width: 600px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+#posicao-border-top{
+    width: 1186.87px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+#orange-bg .title-border-azul{
+    border: 3px solid #022E53;
+    width: 702.34px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#orange-bg .title-border-preta{
+    border: 2px solid #000;
+    width: 539.3px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+#orange-bg #topicos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 980px;
+  }
+  
+   /*O recipiente do cartão flip - defina a largura e a altura como desejar. */
+  
+.flip-card{
+    width: 250px;
+    height: 300px;
+    margin-bottom: 60px;
+    border-radius: 5px;  
+}
+  
+  /* Este contêiner é necessário para posicionar a frente e o verso */
+.flip-card-interna {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1.3s;
+    transform-style: preserve-3d;
+}
+  
+  /* Faça um giro horizontal ao mover o mouse sobre o contêiner da caixa de virar */
+.flip-card:hover .flip-card-interna {
+    transform: rotateY(180deg);
+}
+  
+  /* Posicione a frente e o verso */
+.flip-card-frente, .flip-card-costas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+  
+.flip-card-frente img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+ /*Estilize a parte de trás */
+.flip-card-costas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #022E53;
+    color: #F26A1B;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+.flip-card-costas h1 {
+    font-size:25px;
+    margin-bottom: 30px;
+  
+}
+.flip-card-costas p {
+    font-size:18px;
+    font-weight: normal;
+    color: #fff;
+    padding: 0px;
+}
+  
+#posicao-border-bottom{
+    width: 1186.87px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+
+/*aline*/
+.sobre-titulo{
+
+    margin: 140px 0px 0px 110px;
+}
+#sobre-borda_titulo{
+    width: 230px;
+    border: 2px solid #FE8100;
+    margin-left: 100px;
+}
+
+#sobre-borda_titulo2{
+    width: 177px;
+    border:2px solid #022E53;
+    margin: 15px 0px 0px 100px;
+
+}
+#secao-sobre{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Tirei a margin rigth para alinhar o conteudo */
+.sobre-box{
+    width: 652px;
+    height: 339px;
+    display: flex;
+    margin: 38px 0px 100px 0px;
+}
+/* Retirei o   text-align: justify; pois já alinhei na caixa abaixa o texto */
+.sobre-box-text{
+    width: 300px;
+    height: 150px;
+}
+/* Adicionei um display flex para alinhar o texto no meio da caixa, também diminui o border radius pq estava mais redondo que o figma*/
+#sobre-box-border-azul{
+    border: 4px solid #022E53;
+    text-align: center;
+    border-radius: 20px;
+    width: 600px;
+    height: 333px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#sobre-box-border-laranja{
+    border: 4px solid #FE8100;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 635px;
+    height: 333px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sobre-paragrafo-1{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.sobre-paragrafo-2{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/* Alterei a margin para dar um espaço embaixo deles e posicionar um do lado do outro */
+.sobre-box_image{
+    width: 428px;
+    height: 412px;
+    margin: 0px 0px 90px 50px;
+}
+.sobre-box_image-2{
+    width: 428px;
+    height: 412px;
+    margin: 0px 50px 50px 0px;
+}
+.sobre-box_image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Jessi */
+
+#secao-desenvolvedores{
+    background-color: #011526;
+    width: 100%;
+    height: 900px;
+}
+
+.secao-titulo{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 130px 0px 50px 0px;
+}
+
+#box-dev{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo-dev{
+    width: 450px;
+    height: 178px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    
+}
+
+.imagem-perfil{
+    width: 250px;
+    height: auto;
+    position: relative;
+}
+
+.imagem-perfil img{
+    width: 100%;
+}
+
+.texto-perfil{
+    width: 100%;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.caixa-redes{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cargo p{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/*Jhow*/
+
+footer {
+    background-color: #011526;
+    color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu-rodape ul {
+    display: flex;
+    gap: 30px
+}
+#menu-rodape ul .link-rodape{
+    color: #fff;
+    font-size: 16px;
+    transition: 1s;
+}
+#menu-rodape ul .link-rodape:hover{
+    color:#FE8100;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.logo-rodape img {
+    max-width: 100px;
+}
+
+.box-redes-copy{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+}

@@ -1,0 +1,497 @@
+@media only screen and (max-width:480px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .logo{
+        margin: 0;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+    #container_video{
+        display: none;
+    }
+    .nav-header{
+        width: 100%;
+        margin: 0px 0px 0px 0px; 
+        flex-direction: column;  
+        justify-content: space-around;
+        height: auto;
+    }
+    .nav-header a{
+        font-size: 16px;
+        margin-bottom: 30px ;
+    }        
+        
+    #conteudo-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    .texto-header{
+        position: relative;
+        background-color: #011526;
+    } 
+
+    .texto-header h2{
+        font-size: 18px;
+        margin:0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+    .texto-header p{
+        font-weight: 700;
+        font-size: 16px;
+        margin:0;
+        margin-bottom: 80px;
+    }
+    .imagem-header{
+        width: 300px;
+        height: auto;
+    }
+    #quadrado-header{
+        width: 100%;
+        height: 100%;
+    }
+        
+    #orange-bg{
+        padding-top: 50px;
+    }
+    #orange-bg h2{
+        font-size: 17px;
+        text-align: center;
+        width: 200px;
+    }
+    #posicao-border-top{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    #orange-bg .title-border-azul{
+        display: none;
+    }
+    #orange-bg .title-border-preta{
+        display: none;
+    }
+    #orange-bg #topicos{
+        width: 550px;
+        flex-direction: column;
+        align-items: center;
+    }   
+    #orange-bg #topicos a{
+        width:200px;
+        height: 250px;
+        margin-bottom: 30px;
+    }               
+    .flip-card{
+        width: 200px;
+        height: 250px;
+    }
+    .flip-card-costas h1 {
+        font-size:20px;
+        margin-bottom: 20px;
+    }
+    .flip-card-costas p {
+        font-size:16px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sobre-titulo{
+        margin: 40px 0px 5px 0px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #sobre-borda_titulo{
+        width: 220px;
+        border: 2px solid #FE8100;
+        margin:auto;
+        margin-bottom: 15px;
+    }
+    
+    #sobre-borda_titulo2{
+        width: 220px;
+        border:2px solid #022E53;
+        margin:auto;
+        margin-bottom: 60px;
+    }
+    #secao-sobre{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-box{
+        width: 240px;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        margin-bottom: 30px;
+        font-family: "Comfortaa", sans-serif;
+    }
+
+    .sobre-box-text{
+        width: 300px;
+        height: 150px;
+    }
+    #sobre-box-border-azul{
+        width: 100%;
+        height: 100%;
+    }
+    #sobre-box-border-laranja{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .sobre-paragrafo-1{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 30px;
+        margin: 0;
+    }
+    
+    .sobre-paragrafo-2{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 35px;
+        margin: 0;
+    }
+    
+    .sobre-box_image{
+       display: none;
+    }
+    .sobre-box_image-2{
+        display: none;
+    }
+    
+    #secao-desenvolvedores{
+        background-color: #011526;
+        width: 100%;
+        height: auto;
+    }
+
+    .secao-titulo{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding: 90px 0px 50px 0px;
+    }
+
+    #box-dev{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-dev{
+        width: 210px;
+        height:auto;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .imagem-perfil{
+        width: 190px;
+        height: auto;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .imagem-perfil img{
+        width: 100%;
+    }
+
+    .texto-perfil{
+        color: white;
+        font-size: 16px;
+        margin-left:0px; 
+        gap: 15px;
+    }
+
+    .caixa-redes{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .cargo p{
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+
+    #menu-rodape ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:1209px){
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+        .logo{
+            margin: 0;
+            width: 200px;
+        }
+        .logo img{
+            width: 100%;
+            height: auto;
+        }
+        #container_video{
+            display: none;
+        }
+        .nav-header{
+            width: 100%;
+            margin: 0px 0px 50px 0px;    
+        }
+        .nav-header a{
+            font-size: 16px;
+        }        
+            
+        #conteudo-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 80px;
+        }
+
+        .texto-header{
+            position: relative;
+            background-color: #011526;
+        } 
+
+        .texto-header h2{
+            font-size: 20px;
+            margin:0;
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        .texto-header p{
+            font-weight: 700;
+            font-size: 16px;
+            margin:0;
+            margin-bottom: 80px;
+        }
+        .imagem-header{
+            width: 300px;
+            height: auto;
+        }
+        #quadrado-header{
+            width: 100%;
+            height: 100%;
+        }
+            
+        #orange-bg{
+            padding-top: 50px;
+        }
+        #orange-bg h2{
+            font-size: 17px;
+            text-align: center;
+        }
+        #posicao-border-top{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        #orange-bg .title-border-azul{
+            display: none;
+        }
+        #orange-bg .title-border-preta{
+            display: none;
+        }
+        #orange-bg #topicos{
+            width: 550px;
+            justify-content: space-evenly;
+        }   
+        #orange-bg #topicos a{
+            width:200px;
+            height: 250px;
+            margin-bottom: 30px;
+        }               
+        .flip-card{
+            width: 200px;
+            height: 250px;
+        }
+        .flip-card-costas h1 {
+            font-size:20px;
+            margin-bottom: 20px;
+        }
+        .flip-card-costas p {
+            font-size:16px;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        .sobre-titulo{
+            margin: 120px 0px 5px 0px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        #sobre-borda_titulo{
+            width: 230px;
+            border: 2px solid #FE8100;
+            margin:auto;
+            margin-bottom: 15px;
+        }
+        
+        #sobre-borda_titulo2{
+            width: 230px;
+            border:2px solid #022E53;
+            margin:auto;
+            margin-bottom: 30px;
+        }
+        #secao-sobre{
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .sobre-box{
+            width: 450px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            margin-bottom: 30px;
+            font-family: "Comfortaa", sans-serif;
+        }
+
+        .sobre-box-text{
+            width: 300px;
+            height: 150px;
+        }
+        #sobre-box-border-azul{
+            width: 100%;
+            height: 100%;
+        }
+        #sobre-box-border-laranja{
+            width: 100%;
+            height: 100%;
+            margin-left: 0;
+        }
+        
+        .sobre-paragrafo-1{
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 35px;
+            margin: 0;
+        }
+        
+        .sobre-paragrafo-2{
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 35px;
+            margin: 0;
+        }
+        
+        .sobre-box_image{
+           display: none;
+        }
+        .sobre-box_image-2{
+            display: none;
+        }
+        
+        #secao-desenvolvedores{
+            background-color: #011526;
+            width: 100%;
+            height: auto;
+        }
+
+        .secao-titulo{
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            padding: 90px 0px 50px 0px;
+        }
+
+        #box-dev{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .conteudo-dev{
+            width: 210px;
+            height:auto;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .imagem-perfil{
+            width: 190px;
+            height: auto;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .imagem-perfil img{
+            width: 100%;
+        }
+
+        .texto-perfil{
+            color: white;
+            font-size: 16px;
+            margin-left:0px; 
+            gap: 15px;
+        }
+
+        .caixa-redes{
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+
+        .cargo p{
+            width: 100%;
+            height: 100%;
+            color: white;
+        }
+        #menu-rodape ul {
+            padding-top: 10px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+}
+
+
