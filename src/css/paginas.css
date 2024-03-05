@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    font-family: "Poppins";
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
 }
 main{
     width: 100%;
